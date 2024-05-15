@@ -1,0 +1,6 @@
+neuralgym @ git+https://github.com/JiahuiYu/neuralgym@88292adb524186693a32404c0cfdc790426ea441
+opencv-python==4.9.0.80
+Pillow==9.5.0
+protobuf==4.24.4
+PyYAML==6.0.1
+tensorflow==1.15.5

@@ -21,6 +21,7 @@ def preprocess_image(image, watermark_type):
     else:
         image_type = "potrait"
 
+##        image_type = "landscape"
     mask_image = Image.open(
         "utils/{}/{}/mask.png".format(watermark_type, image_type))
     if mask_image.mode != "RGB":
